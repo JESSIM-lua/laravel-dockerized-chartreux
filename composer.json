@@ -1,0 +1,21 @@
+{
+    "name": "jessim/laravel",
+    "description": "fisrt time with laravel",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.0",
+        "psr/clock": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jessim\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jessim"
+        }
+    ],
+    "minimum-stability": "stable"
+}
